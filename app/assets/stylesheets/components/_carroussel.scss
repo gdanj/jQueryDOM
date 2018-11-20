@@ -1,0 +1,49 @@
+.bolitas {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.bolita {
+  background-color: rgba(255, 255, 255, .4);
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  margin: 0 10px;
+}
+.bolita.activa {
+  border-color: rgba(255, 255, 255, .6);
+}
+
+.carrousel {
+  overflow: hidden;
+  position: relative;
+}
+.carrousel-images {
+  display: flex;
+  transition: all .6s;
+}
+.carrousel, .carrousel img {
+  width: 100%;
+  height: 100vh;
+}
+img {
+  object-fit: cover;
+}
+.carrousel button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto auto;
+  height: 30px;
+
+}
+
+.carrousel button.prev {
+  left: 30px;
+}
+.carrousel button.next {
+  right: 30px;
+}

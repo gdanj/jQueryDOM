@@ -1,0 +1,15 @@
+@import "variables/personal_variables";
+@import "variables/bootstrap_variables";
+
+@import "bootstrap";
+@import "font-awesome";
+@import "components/*";
+
+body {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#847979+0,494544+100 */
+    background: #847979; /* Old browsers */
+    background: -moz-linear-gradient(top, #847979 0%, #494544 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #847979 0%,#494544 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #847979 0%,#494544 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#847979', endColorstr='#494544',GradientType=0 ); /* IE6-9 */
+}
